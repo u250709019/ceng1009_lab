@@ -44,16 +44,39 @@
 # print(reverse("hello"))
 
 
-def remove_all_occurences(sub, s):
-    return s.replace(sub, "")
-
-print(remove_all_occurences("abcdefg", "")) 
-
-
+# def remove_all_occurences(sub, s):
+#     return s.replace(sub, "")
+#
+# print(remove_all_occurences("abcdefg", ""))
 
 
 
+# def substitute(message, key):
+#     alphabet = "abcdefghklmnoptrsyuzqwx123456"
+#     result = ""
+#     for ch in message:
+#         index = alphabet.find(ch.lower())
+#         if index == -1:
+#             result = result + ch
+#         elif ch.isupper():
+#             result = result + key[index].upper()
+#         else:
+#             result = result + key[index].lower()
+#
+#     return result
+#
+# key = "çşğplömkoıjnbhuygvcftrdxzsewq"
+#
+# print(substitute("hhhhhhh", key))
 
+# def remove_dups(s):
+#     result = ""
+#     for ch in s:
+#         if ch.lower() not in result.lower():
+#             result = result + ch
+#     return result
+#
+# print(remove_dups("aabcddaadd"))
 
 
 
